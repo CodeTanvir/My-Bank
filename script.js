@@ -61,7 +61,7 @@ const account2 = {
    
     pin: 2222,
     movementsUSD: [2100, 390, -250, -100,40000],
-    movementsEUR: [100, 940, -200,30000 ],
+    movementsEUR: [100, 940, -200,35000 ],
     movementsGBP: [104, 620, -260, 70000 ],
     totalmovement: [],
     totalsign: [],
