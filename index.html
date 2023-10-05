@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>My Bank</title>
+</head>
+
+<body>
+
+    <div class="app" id="appy">
+         <div class="over"></div>
+    <h1>Welcome To My Bank</h1>
+    <span style="color: aliceblue; width: 90%;"> you can login with :<br>
+         username = th password = 1111 <br> username = mm password = 2222,
+         <br> username = srm password = 3333,<br>
+        you can also send money between these accounts</span>
+         
+    <div class="login">
+        <div class="logo">
+<div class="overlay"></div> </div>
+<div class="login-form">
+<form action="">
+    <input class="login-name login-form-in" type="text" placeholder="Username">
+    <input class="login-pin login-form-in" type="password" maxlength="4" placeholder="Password">
+    <button class=" login-btn">Login</button>
+    <a class="signup-btn" href="#">sign up &rarr;</a>
+    
+</form>
+   </div>
+</div>
+</div>
+
+    <main class="sec-section">
+        <div class="second">
+            <div class="menu">
+                <div class="menu-main">
+                    <div class="menu-row" style="color: aqua; font-weight: 700;
+padding-top:0px; ">
+
+
+                        <img src="img/logo.png" alt="">
+                        <span style="display: block;">MY BANK</span>
+                    </div>
+                    <div class="menu-row a Home-btn">HOME</div>
+                    <div class="menu-row a pay-btn">PAY NOW</div>
+                    <div class="menu-row a exchange">Currency exchange</div>
+                    <div class="menu-row a loan-btn">Loan</div>
+                    <!-- <div class="menu-row a">Deposit</div>
+                    <div class="menu-row a">Withdraw</div>
+                    <div class="menu-row a">Statement</div> -->
+                    <div class="menu-row a log-out"style="color:red;">Log out</div>
+                    <div class="menu-row">© 2005-2023<br> Payoneer Inc.<br>
+                        All Rights<br> Reserved</div>
+                </div>
+            </div>
+
+            <div class="dashboard">
+                <div class="page">🏠 HOME</div>
+                <div class="home">
+                    <h3 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         letter-spacing: 1px;">Blances</h3>
+                    <div class="dash-currency">
+
+                        <div class="usd-currency currency">
+                            <div class="usd">USD 1000</div>
+                        </div>
+                        <div class="eur-currency currency">
+                            <div class="eur">EUR 1000</div>
+                        </div>
+                        <div class="gbp-currecncy currency">
+                            <div class="gbp">GBP 1000</div>
+                        </div>
+                    </div>
+                    <div class="movements">
+                        <div class="movements_one">
+                            <div class="movements_row">
+                                <div class="deposited">blank</div>
+                                <div class="money">000 </div>
+                                 
+                                
+                               
+                            </div>
+                        
+                            <div class="movements_row">
+                                <div class="withdraw"> blank</div>
+                                <div class="money">000</div>
+                                 
+                               
+                                
+                            </div>
+                           
+
+                        </div>
+
+
+                        <div class="movements_two">
+                            <div class="Transiction">
+                                <h3 class="header">Transction History</h3>
+                                <select class="group">
+                                    <optgroup label="Days">
+                                        <option value="">Last 5 Days</option>
+                                        <option value="">Last 15 Days</option>
+                                        <option value="">Last 35 Days</option>
+                                        <option value="">Last 45 Days</option>
+                                    </optgroup>
+                                </select>
+                           </div>
+                         <div class="transfer">
+                                <h4>Transfer Money</h4>
+                                <form action="post" name="my-form" class="form">
+                                    <select name="currencies" class="groupA">
+
+                                        <option class="europe common" value="€">EUR</option>
+                                        <option class="america common" value="$">USD</option>
+                                        <option class="britain common" value="£">GBP</option>
+
+                                    </select>
+                                    <input class=" input__username"  type="text">
+                                    <input class="input_amount" type="number">
+                                    <button class="transfer-btn">&rarr;</button>
+                                    <label class="form__label">Transfer to</label>
+                                    <label class="form__label"> Amount</label>
+                                </form>
+                            </div>
+
+
+ <div class="transfer convert" id="looad">
+    <h5> Exchange Rate <span class="exchanged" style="font-size: 0.85rem; color: white;">1 EUR = 1.3 USD </span>
+         </h5>
+              <form action="" class="form">
+                                    <!-- <input class=" input__username" aria-label="Transfer" type="text"> -->
+               <select class="groupC">
+                                       
+                     <option  class="fix" value="EUR">EUR </option>
+                    <option  class ="fixa" value="USD">USD</button></option>
+                           <option  class="fixb" value="GBP">GBP </option>
+                                    </select>
+                                    <span>⇀</span>
+                               <select class="groupD">
+                                       
+                                        <option class="€" value="EUR">EUR</option>
+                                        <option class="$" value="USD">USD</option>
+                                        <option class="£" value="GBP">GBP</option>
+
+                                    </select>
+                                    <input class="input_exchange" type="number">
+                                    <button class="convert-Btn">&rarr;</button>
+                                    <label class="form__label">Select</label>
+                                    <label class="form__label"> Amount</label>
+                                </form>
+                            </div>
+
+                            <div class="transfer loan">
+                                <h4>Request Loan</h4>
+                                <form action="" class="form">
+                                    <!-- <input class=" input__username" aria-label="Transfer" type="text"> -->
+                                    <select class="groupB">
+
+                                        <option value="€">EUR</option>
+                                        <option value="$">USD</option>
+                                        <option value="£">GBP</option>
+
+                                    </select>
+                                    <input class="loan-amount" type="number">
+                                    <button class="loanBtn">&rarr;</button>
+                                    <label class="form__label">......</label>
+                                    <label class="form__label loan-am">Amount</label>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="Sub-menu">
+                <div class="user">
+                <div class="customer-pic "><img src="img/sl.jpg" alt=""></div>
+                <div class="customer-info">
+                    <span class="name">Avatar Adam</span>
+                    <span class="csId">Customer ID: 69669034</span>
+                </div>
+            </div>
+               
+                <div class="reciver">
+                     <h3 style="text-align: center;letter-spacing: 2px;">Reciever📥</h3>
+                    <div class="customer-pic"><img class="pic"src="img/sl.jpg" alt=""></div>
+                    <div class="customer-info">
+                        <span class="name rcv-name">Avatar Adam</span>
+                        <span class="csId">Customer ID: 69669034</span>
+                    </div>
+                </div>
+            </div>
+            <div></div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>          
